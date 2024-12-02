@@ -1,0 +1,20 @@
+name = "dancodesrbx/test"
+version = "0.1.0"
+authors = ["DanCodesRBX"]
+license = "MIT"
+includes = [
+    "pesde.toml",
+    "src/**/*.luau"
+]
+
+[target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+[scripts]
+roblox_sync_config_generator = ".pesde/roblox_sync_config_generator.luau"
+sourcemap_generator = ".pesde/sourcemap_generator.luau"
+
+[indices]
+default = "https://github.com/daimond113/pesde-index"

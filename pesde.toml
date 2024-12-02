@@ -1,0 +1,8 @@
+name = "dancodesrbx/roblox_utility_packages"
+version = "0.1.0"
+private = true
+
+workspace_members = ["pkgs/*"]
+
+[target]
+environment = "roblox"
