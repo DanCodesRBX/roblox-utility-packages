@@ -1,0 +1,33 @@
+name = "dancodesrbx/protected_prompt"
+version = "0.1.0"
+target = "roblox"
+
+[graph."wally#sleitnick/signal"."2.0.1 roblox"]
+direct = ["Signal", { wally = "wally#sleitnick/signal", version = "^2.0.1" }, "standard"]
+resolved_ty = "standard"
+
+[graph."wally#sleitnick/signal"."2.0.1 roblox".target]
+environment = "roblox"
+lib = "init.lua"
+build_files = []
+
+[graph."wally#sleitnick/signal"."2.0.1 roblox".pkg_ref]
+ref_ty = "wally"
+wally = "wally#sleitnick/signal"
+version = "2.0.1"
+index_url = "https://github.com/UpliftGames/wally-index"
+
+[graph."wally#sleitnick/trove"."1.4.0 roblox"]
+direct = ["Trove", { wally = "wally#sleitnick/trove", version = "^1.4.0" }, "standard"]
+resolved_ty = "standard"
+
+[graph."wally#sleitnick/trove"."1.4.0 roblox".target]
+environment = "roblox"
+lib = "init.lua"
+build_files = []
+
+[graph."wally#sleitnick/trove"."1.4.0 roblox".pkg_ref]
+ref_ty = "wally"
+wally = "wally#sleitnick/trove"
+version = "1.4.0"
+index_url = "https://github.com/UpliftGames/wally-index"

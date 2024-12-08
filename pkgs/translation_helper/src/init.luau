@@ -31,7 +31,7 @@ function TranslationHelper.translate(text: string, context: Instance?)
 		return playerTranslator:Translate(context or game, text)
 	elseif sourceTranslator then
 		return sourceTranslator:Translate(context or game, text)
-	else
+	else -- Handle odd case
 		warn(`Failed to find translation for text: {text}`)
 		return text
 	end
@@ -41,7 +41,6 @@ function TranslationHelper.translateByKey(key: string, arguments: KeyArguments?)
 	local translation = ""
 	local foundTranslation = false
 
-	-- First tries to translate for the player's language (if a translator was found)
 	if playerTranslator then
 		foundTranslation = pcall(function()
 			translation = playerTranslator:FormatByKey(key, arguments)
