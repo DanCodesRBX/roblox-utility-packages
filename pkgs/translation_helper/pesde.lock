@@ -1,5 +1,5 @@
 name = "dancodesrbx/translation_helper"
-version = "0.1.0"
+version = "1.0.1"
 target = "roblox"
 
 [graph."wally#sleitnick/signal"."2.0.1 roblox"]

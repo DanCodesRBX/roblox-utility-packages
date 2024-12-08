@@ -1,4 +1,4 @@
-local Signal = require(script.Parent.Packages.Signal)
+local Signal = require(script.Parent.roblox_packages.Signal)
 
 local getTranslator = require(script.getTranslator)
 
