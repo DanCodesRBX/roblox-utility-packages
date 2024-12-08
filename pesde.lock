@@ -1,0 +1,9 @@
+name = "dancodesrbx/roblox_utility_packages"
+version = "0.1.0"
+target = "roblox"
+
+[workspace."dancodesrbx/test"]
+roblox = "pkgs/test"
+
+[workspace."dancodesrbx/translation_helper"]
+roblox = "pkgs/translation_helper"
