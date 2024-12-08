@@ -2,6 +2,15 @@ name = "dancodesrbx/roblox_utility_packages"
 version = "0.1.0"
 target = "roblox"
 
+[workspace."dancodesrbx/animation_loader"]
+roblox = "pkgs/animation_loader"
+
+[workspace."dancodesrbx/math"]
+roblox = "pkgs/math"
+
+[workspace."dancodesrbx/protected_prompt"]
+roblox = "pkgs/protected_prompt"
+
 [workspace."dancodesrbx/test"]
 roblox = "pkgs/test"
 
