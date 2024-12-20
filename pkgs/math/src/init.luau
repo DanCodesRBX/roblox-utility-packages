@@ -26,7 +26,7 @@ end
 function Math.jitter(center: number, spread: number?): number
 	local usedSpread = spread or 0.5 * center
 
-	return center - 0.5 * usedSpread + RANDOM:NextNumber() * spread
+	return center - 0.5 * usedSpread + RANDOM:NextNumber() * usedSpread
 end
 
 --[[

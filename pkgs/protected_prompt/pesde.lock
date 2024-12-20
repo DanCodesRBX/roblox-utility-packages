@@ -17,17 +17,17 @@ wally = "wally#sleitnick/signal"
 version = "2.0.1"
 index_url = "https://github.com/UpliftGames/wally-index"
 
-[graph."wally#sleitnick/trove"."1.4.0 roblox"]
+[graph."wally#sleitnick/trove"."1.5.0 roblox"]
 direct = ["Trove", { wally = "wally#sleitnick/trove", version = "^1.4.0" }, "standard"]
 resolved_ty = "standard"
 
-[graph."wally#sleitnick/trove"."1.4.0 roblox".target]
+[graph."wally#sleitnick/trove"."1.5.0 roblox".target]
 environment = "roblox"
-lib = "init.lua"
+lib = "init.luau"
 build_files = []
 
-[graph."wally#sleitnick/trove"."1.4.0 roblox".pkg_ref]
+[graph."wally#sleitnick/trove"."1.5.0 roblox".pkg_ref]
 ref_ty = "wally"
 wally = "wally#sleitnick/trove"
-version = "1.4.0"
+version = "1.5.0"
 index_url = "https://github.com/UpliftGames/wally-index"
