@@ -1,5 +1,5 @@
 name = "dancodesrbx/roblox_utility_packages"
-version = "0.1.0"
+version = "0.1.1"
 target = "roblox"
 
 [workspace."dancodesrbx/animation_loader"]
